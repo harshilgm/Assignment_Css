@@ -1,0 +1,68 @@
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.jumbotron{
+ background-image: url("../img/j.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-bottom: 15%;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 450px;
+    background-image: url("../img/c6.jpg");
+    background-repeat:round;
+    background-size: cover;
+    
+}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 450px;
+    
+    background-color: darkgoldenrod;
+    
+    font-size: 26px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    border: solid 1px black;
+    font-size: 10px;
+  }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {height:auto;} 
+      }
+      .h{
+          font-size: 20px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          position: relative;
+          right: 100px;
+      }
+      .h:hover{
+          color: #2f2519;
+          font-size: 30px;
+        }
+      }
+      
+     .p1:hover{
+          color :#4a3f35;
+         }
+      
+    .p2:hover{
+        color :#4a3f35;
+        }
